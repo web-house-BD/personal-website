@@ -1,0 +1,132 @@
+body{
+    margin:0%;
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+section{
+    display: block;
+    padding: 150px 0;
+    height: 700px;
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.content{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    color: hotpink;
+}
+.content-1{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(29, 24, 24);
+    margin-bottom: 10px;
+
+}
+
+
+.half-width{
+    
+    float: left;
+    width: 30%;
+    margin-left: 150px;
+    
+}
+img{
+    max-width: 100%;
+    
+}
+.button{
+    padding: 10px 30px;
+    background-color: rgb(238, 52, 145);
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(81, 81, 199);
+    
+}
+.bio-content{
+    padding-top: 60px;
+}
+.bio-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.text-center{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 60px;
+    font-weight: 500;
+}
+.latest-work img{
+    width: 30%;
+    float: left;
+    margin: 0 15px;
+}
+.latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.name-founder{
+    text-align: center;
+}
+span{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.space{
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.communication{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: hotpink;
+    padding: 50px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.contect-area{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.color{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.ft{
+    text-align: center;
+    margin-top: 80px;
+    color: grey;
+}
+small{
+    color: grey;
+}
